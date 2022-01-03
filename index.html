@@ -1,0 +1,151 @@
+<!--VBuild Technologies-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Google+Sans:400,500,700" rel="stylesheet" media="all">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" media="all">
+    <link href="https://storage.googleapis.com/cms-storage-bucket/main.1ef11bbd0c047a4039d0.css" rel="stylesheet"
+        media="all">
+    <script async defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js"
+        data-auto-replace-svg="nest"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="company.css">
+    <title>VBuild Technologies</title>
+    <link rel="shortcut icon" href="vb.png">
+</head>
+
+
+<body class="home" x-data="ScrollSpy" x-on:scroll.window="onScroll"
+    x-bind:class="{ 'in-content': $store.spy.inContent }">
+    <!--Navbar-->
+   
+
+       
+           <nav class="navbar navbar-expand-lg navbar-dark bg-black">
+               <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link padding02" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link padding02" href="#">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link padding02" href="#">About us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link padding02" href="#">Contact us</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+    </nav> 
+    <!--Home-->
+
+    <div class="content">
+
+        <div class="icon-btn close" x-show="navOpen" @click="toggleMobileNav">
+            <i class="fas fa-times"></i>
+        </div>
+    </div>
+
+    <main>
+
+        <section class="hero">
+            <div class="container">
+                <h1>Welcome to VBuild Technogies</h1>
+                <div class="gallery">
+                    <div class="inner-fixed">
+                        <div class="col col-outer col-left">
+                            <div class="card card-a" style="background-image:url(web.jpg)">
+                            </div>
+                            <div class="card card-b"
+                                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/26f33d7afbfcafacaa73.jpg)">
+                            </div>
+                            <div class="card card-c"
+                                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/42b50a45c3cfd815e2aa.png)">
+                            </div>
+                        </div>
+                        <div class="col col-center">
+                            <div class="card card-a"
+                                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/90e34daecca082eb9b28.png)">
+                            </div>
+                        </div>
+                        <div class="col col-outer col-right">
+                            <div class="card card-a"
+                                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/7c827ed46aa7efe0109b.png)">
+                            </div>
+                            <div class="card card-b" style="background-image:url(hx.jpg)">
+                            </div>
+                            <div class="card card-c"
+                                style="background-image:url(creative-design-designer-man-working.jpg)">
+                            </div>
+                            <div class="card card-d"
+                                style="background-image:url(https://storage.googleapis.com/cms-storage-bucket/b8bd15d096f0557123b1.jpg)">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <h2>VBuild Tech is here to help you out . <br> Get premium services at very affordable price.</h2>
+                <a id="get-started__home-hero-bottom" href="" class="btn white">Get started</a>
+            </div>
+        </section>
+
+
+        <!--<div id="home">
+        <div class="card bg-light text-black" data-aos="fade-up">
+            <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+            <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_ba013t74.json" background="dark" speed="1"
+                style="width: 100%; height: 100%;" loop autoplay></lottie-player>
+            <div class="card-img-overlay">
+                <h3 class="card-title"><span class="text1">
+                        VBuild Technologies
+                    </span></h3>
+                <p class="card-text"> <span class="text2">This is a wider card with supporting text below as a natural
+                        lead-in to additional
+                        content. This content is a little bit longer.</span></p>
+                <p class="card-text"></p>
+            </div>
+        </div>
+    </div> -->
+    <!--Projects-->
+    <div class="projects">
+        
+</div>
+        <!--Top icon-->
+        <div class="top_icon">
+            <a href="#" style="text-decoration: none;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="white" class="bi bi-arrow-up"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z" />
+                </svg>
+            </a>
+        </div>
+
+
+
+        <script src="https://storage.googleapis.com/cms-storage-bucket/main.c5116325880975e87b11.js"></script>
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+            AOS.init();
+        </script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+            crossorigin="anonymous"></script>
+
+</body>
+
+</html>
